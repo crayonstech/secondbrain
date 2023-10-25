@@ -52,7 +52,7 @@ const Footer = (): JSX.Element => {
       <div className="max-w-screen-xl mx-auto flex justify-center items-center gap-4 mt-4">
      
         <a
-          href={"https://crayonstech.co/index.php/terms-and-conditions"}
+          href="https://crayonstech.co/index.php/terms-and-conditions"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Crayonstech GitHub"
@@ -62,7 +62,7 @@ const Footer = (): JSX.Element => {
         </a>
         | 
         <a
-          href={"https://crayonstech.co/index.php/privacy-policy"}
+          href="https://crayonstech.co/index.php/privacy-policy"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Crayonstech Twitter"
