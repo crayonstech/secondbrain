@@ -48,18 +48,28 @@ const SignUp = (): JSX.Element => {
               placeholder={t("password")}
               data-testid="password-field"
             />
-            <div className=" flex justify-center items-center gap-4 mt-2 mb-2 text-xs">
-     By signing up, you agree to the
-        <a href="https://crayonstech.co/index.php/terms-and-conditions" target="_blank" rel="noopener noreferrer" aria-label="Crayonstech GitHub" className="custom-link">
-          Terms and Conditions
-        </a>
-         and 
-        <a href="https://crayonstech.co/index.php/privacy-policy" target="_blank" rel="noopener noreferrer" aria-label="Crayonstech Twitter" className="custom-link">
-          Privacy Policy
-        </a>
-        .
-        
-      </div>
+            <div className=" flex flex-col justify-center items-center mt-2 text-xs">
+              By signing up, you agree to the
+              <a
+                href="https://crayonstech.co/index.php/terms-and-conditions"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Crayonstech GitHub"
+                className="custom-link"
+              >
+                Terms and Conditions
+              </a>
+              and
+              <a
+                href="https://crayonstech.co/index.php/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Crayonstech Twitter"
+                className="custom-link"
+              >
+                Privacy Policy
+              </a>
+            </div>
             <div className="flex flex-col items-center justify-center mt-2 gap-2">
               <Button data-testid="sign-up-button" isLoading={isPending}>
                 {t("signUpButton", { ns: "signUp" })}
