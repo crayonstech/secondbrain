@@ -27,7 +27,7 @@ export const useHomeHeader = ({ color }: UseHomeHeaderProps) => {
       className: "underline",
     },
     {
-      href: "https://github.com/StanGirard/quivr",
+      href: "https://github.com/crayonstech/secondbrain",
       label: t("star_us"),
       leftIcon: <AiFillStar size={16} className="hidden md:inline" />,
       rightIcon: null,

@@ -50,7 +50,6 @@ const Footer = (): JSX.Element => {
         </a>
       </div>
       <div className="max-w-screen-xl mx-auto flex justify-center items-center gap-4 mt-4">
-     
         <a
           href="https://crayonstech.co/index.php/terms-and-conditions"
           target="_blank"
@@ -60,7 +59,7 @@ const Footer = (): JSX.Element => {
         >
           Terms and Conditions
         </a>
-        | 
+        |
         <a
           href="https://crayonstech.co/index.php/privacy-policy"
           target="_blank"
@@ -70,8 +69,6 @@ const Footer = (): JSX.Element => {
         >
           Privacy Policy
         </a>
-        .
-        
       </div>
     </footer>
   );
