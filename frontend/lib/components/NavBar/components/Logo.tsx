@@ -12,7 +12,7 @@ export const Logo = (): JSX.Element => {
         className="rounded-full"
         src={"/logo.png"}
         alt="Crayonstech Logo"
-        width={48}
+        width={98}
         height={48}
       />
       {/* <h1 className="font-bold logo-heading">crayonstech</h1> */}
