@@ -9,6 +9,8 @@ export const useJune = (): AnalyticsBrowser | undefined => {
     undefined
   );
 
+  console.log("juneApiKey", juneApiKey);
+
   useEffect(() => {
     const loadAnalytics = () => {
       if (juneApiKey === undefined) {
